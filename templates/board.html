@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Board {% endblock %}
+
+{% block content %}
+
+<div>{{board}}</div>
+
+<form action="" method= "POST">
+    <input type="text" name= "guess">
+    <button>Submit Guess</button>
+</form>
+
+{% endblock %}
